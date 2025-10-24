@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Richard Miller Studios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Logo" class="brand-logo" onerror="this.style.display='none'">
+        <span class="brand-text">Richard Miller Studios</span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="founder.html" class="nav-link">Founder</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:120px;">
+    <section class="contact-section" style="text-align:center;">
+      <h1 class="hero-title" style="font-size:clamp(40px,5vw,80px);margin-bottom:14px;">Get in Touch</h1>
+      <p class="hero-sub" style="max-width:640px;margin:auto;">We’d love to hear from you. Whether it’s a new project inquiry, collaboration, or service request — our team is here to help.</p>
+      
+      <div style="margin-top:40px;color:#aaa; margin-bottom: 50px;">
+        <p><strong>Email:</strong> richardmilleraudios@gmail.com</p>
+        <p><strong>Phone:</strong> 9980545519/9845119792</p>
+        <p><strong>Location:</strong> #10,Flat # 202 B,7th A cross Rose Garden Bazaar Street Neelsandra,Bangalore-560047</p>
+      </div>
+
+      <h2 class="hero-title" style="font-size:clamp(30px,4vw,60px);margin-bottom:14px;">Leave a Review</h2>
+      <form id="feedbackForm" class="contact-form" style="max-width:600px;margin:50px auto;text-align:left;display:flex;flex-direction:column;gap:16px;">
+        <label>
+          <span>Name</span><br>
+          <input type="text" id="name" placeholder="Enter your name" required style="width:100%;padding:14px;border-radius:8px;border:none;background:rgba(255,255,255,0.05);color:#fff;">
+        </label>
+        <label>
+          <span>Feedback</span><br>
+          <textarea id="feedback" rows="5" placeholder="Your feedback..." required style="width:100%;padding:14px;border-radius:8px;border:none;background:rgba(255,255,255,0.05);color:#fff;"></textarea>
+        </label>
+        <label>
+            <span>Rating</span><br>
+            <div class="star-rating" style="text-align: center; font-size: 2rem; color: #ffc107; cursor: pointer;">
+                <i class="far fa-star" data-value="1"></i>
+                <i class="far fa-star" data-value="2"></i>
+                <i class="far fa-star" data-value="3"></i>
+                <i class="far fa-star" data-value="4"></i>
+                <i class="far fa-star" data-value="5"></i>
+            </div>
+            <input type="hidden" id="rating" name="rating" value="0">
+        </label>
+        <button type="submit" class="btn btn-filled" style="align-self:center;margin-top:10px;">Submit Feedback</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Richard Miller & Audios. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

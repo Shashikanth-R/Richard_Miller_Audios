@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Founder — Richard Miller Studios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Logo" class="brand-logo" onerror="this.style.display='none'">
+        <span class="brand-text">Richard Miller Studios</span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="founder.html" class="nav-link">Founder</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:120px;">
+    <section class="founder-section" style="display:flex;flex-wrap:wrap;align-items:center;gap:40px;">
+      <div class="founder-photo tilt-card" style="flex:1 1 320px;">
+        <img src="assets/founder.jpg" alt="Founder" style="width:100%;border-radius:16px;box-shadow:0 12px 30px rgba(0,0,0,0.6);">
+      </div>
+      <div class="founder-info" style="flex:2 1 400px;">
+        <h1 class="hero-title" style="font-size:clamp(40px,5vw,80px);margin-bottom:14px;">Meet Our Founder</h1>
+        <h3 style="color:var(--accent-1);margin-bottom:10px;"><h1>Albert Nathan</h1>(Managing director)</h3>
+        <p class="hero-sub">
+          Albert Nathan, the visionary behind <strong>Richard Miller & Audios</strong>, has over 10+ years of experience designing and building immersive home theatres and luxury entertainment rooms. His deep understanding of acoustics, visual design, and smart automation sets a benchmark in the home theatre industry.
+        </p>
+        <p class="hero-sub">Under his leadership, the studio has transformed hundreds of living spaces into extraordinary cinematic experiences, combining technology and design artistry.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Richard Miller & Audios. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gallery — Richard Miller Studios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Logo" class="brand-logo" onerror="this.style.display='none'">
+        <span class="brand-text">Richard Miller Studios</span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="founder.html" class="nav-link">Founder</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:120px;">
+    <h1 class="hero-title" style="font-size:clamp(40px,5vw,80px);text-align:center;">Our Gallery</h1>
+    <p class="hero-sub" style="text-align:center;">A glimpse into the home theatres and entertainment rooms we’ve transformed.</p>
+
+    <section class="gallery-grid" style="margin-top:50px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;">
+      <img src="assets/img1.jpg" alt="Theatre 1" class="tilt-card" style="width:100%;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,0.6);">
+      <img src="assets/img2.jpg" alt="Theatre 2" class="tilt-card" style="width:100%;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,0.6);">
+      <img src="assets/img3.jpg" alt="Theatre 3" class="tilt-card" style="width:100%;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,0.6);">
+      <img src="assets/img4.jpg" alt="Theatre 4" class="tilt-card" style="width:100%;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,0.6);">
+      <img src="assets/img5.jpg" alt="Theatre 5" class="tilt-card" style="width:100%;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,0.6);">
+      <img src="assets/img6.jpg" alt="Theatre 6" class="tilt-card" style="width:100%;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,0.6);">
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Richard Miller & Audios. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
